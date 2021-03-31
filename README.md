@@ -17,7 +17,7 @@ Search Tree (BST) is a tree in which all the nodes follow the below-mentioned pr
  The left sub-tree of a node has a key less than or equal to its parent node's key.
  The right sub-tree of a node has a key greater than to its parent node's key.
 The list representing the structure of a sample binary tree is given in the following:
-'(8 (3 (1 () ()) (6 (4 () ())(7 () ()))) (10 () (14 (13 () ()) ())))
+>'(8 (3 (1 () ()) (6 (4 () ())(7 () ()))) (10 () (14 (13 () ()) ())))
 This program checks the validity of input lists.
 
 3	Flatten.lisp
@@ -25,5 +25,5 @@ Description: A lisp function that receives a list as the input argument (the lis
 integers, decimals, characters and nested lists) and returns a attened list containing all
 the atomic elements that are numbers, without any duplication. Sample function output is
 shown below:
-(flatten-numbers '(1 2 (3 1) (a 2.5) (2 4.5) ((1 2))))
-(1 2 3 2.5 4.5)
+>(flatten-numbers '(1 2 (3 1) (a 2.5) (2 4.5) ((1 2))))
+>(1 2 3 2.5 4.5)
