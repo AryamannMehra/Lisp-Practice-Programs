@@ -20,7 +20,7 @@ The list representing the structure of a sample binary tree is given in the foll
 >'(8 (3 (1 () ()) (6 (4 () ())(7 () ()))) (10 () (14 (13 () ()) ())))
 This program checks the validity of input lists.
 
-3	Flatten.lisp
+3.	Flatten.lisp
 Description: A lisp function that receives a list as the input argument (the list is mixed up
 integers, decimals, characters and nested lists) and returns a attened list containing all
 the atomic elements that are numbers, without any duplication. Sample function output is
